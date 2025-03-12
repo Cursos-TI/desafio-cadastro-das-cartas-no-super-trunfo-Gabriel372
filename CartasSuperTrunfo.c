@@ -91,8 +91,8 @@ void definirCartaVencedora(struct Carta ListaDeCartas[2]) {
     printf("=========================================\n");
     printf("Comparacao de cartas (Atributo: Area):\n");
     int indexVencedora = (ListaDeCartas[0].Area > ListaDeCartas[1].Area) ? 0 : 1;
-    printf("Carta 1 - %s: %.2f\n", ListaDeCartas[0].name, ListaDeCartas[0].Area);
-    printf("Carta 2 - %s: %.2f\n", ListaDeCartas[1].name, ListaDeCartas[1].Area);
+    printf("Carta 1 - %s: %.2f km2\n", ListaDeCartas[0].name, ListaDeCartas[0].Area);
+    printf("Carta 2 - %s: %.2f km2\n", ListaDeCartas[1].name, ListaDeCartas[1].Area);
     if (ListaDeCartas[0].Area == ListaDeCartas[1].Area)
     {
     printf("Deu empate!!\n");
